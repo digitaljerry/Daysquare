@@ -98,12 +98,15 @@
     self.highlightedComponentTextColor = [UIColor whiteColor];
     self.selectedIndicatorColor = [UIColor colorWithRed:0.74 green:0.18 blue:0.06 alpha:1];
     self.todayIndicatorColor = [UIColor colorWithRed:0.93 green:0.93 blue:0.93 alpha:1];
+    self.navigationBarTintColor = [UIColor yellowColor];
     self.indicatorRadius = 20;
     self.boldPrimaryComponentText = YES;
     
     self.navigationBar = [[DAYNavigationBar alloc] init];
     self.navigationBar.translatesAutoresizingMaskIntoConstraints = NO;
     self.navigationBar.textLabel.text = self.navigationBarTitle;
+    self.navigationBar.prevButton.tintColor = self.navigationBarTintColor;
+    self.navigationBar.nextButton.tintColor = self.navigationBarTintColor;
     [self.navigationBar addTarget:self action:@selector(navigationBarButtonDidTap:) forControlEvents:UIControlEventValueChanged];
     
     [self addSubview:self.navigationBar];

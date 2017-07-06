@@ -17,6 +17,8 @@ typedef NS_ENUM(NSUInteger, DAYNaviagationBarCommand) {
 @interface DAYNavigationBar : UIControl
 
 @property (readonly) UILabel *textLabel;
+@property (readonly) UIButton *prevButton;
+@property (readonly) UIButton *nextButton;
 
 @property (readonly) DAYNaviagationBarCommand lastCommand;
 

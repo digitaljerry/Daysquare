@@ -22,6 +22,7 @@
 @property (copy, nonatomic) UIColor *highlightedComponentTextColor;
 @property (copy, nonatomic) UIColor *selectedIndicatorColor;
 @property (copy, nonatomic) UIColor *todayIndicatorColor;
+@property (copy, nonatomic) UIColor *navigationBarTintColor;
 @property (assign, nonatomic) CGFloat indicatorRadius;
 @property (assign, nonatomic) BOOL boldPrimaryComponentText;
 @property (assign, nonatomic) BOOL singleRowMode;
