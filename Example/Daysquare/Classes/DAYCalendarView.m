@@ -318,6 +318,8 @@
 - (void)configureIndicatorViews {
     self.selectedIndicatorView.color = self.selectedIndicatorColor;
     self.todayIndicatorView.color = self.todayIndicatorColor;
+    self.navigationBar.prevButton.tintColor = self.navigationBarTintColor;
+    self.navigationBar.nextButton.tintColor = self.navigationBarTintColor;
 }
 
 - (void)configureWeekdayHeaderView {
