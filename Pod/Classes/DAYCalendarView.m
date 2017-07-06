@@ -98,7 +98,7 @@
     self.highlightedComponentTextColor = [UIColor whiteColor];
     self.selectedIndicatorColor = [UIColor colorWithRed:0.74 green:0.18 blue:0.06 alpha:1];
     self.todayIndicatorColor = [UIColor colorWithRed:0.93 green:0.93 blue:0.93 alpha:1];
-    self.navigationBarTintColor = [UIColor grayColor];
+    self.navigationBarTintColor = [UIColor whiteColor];
     self.indicatorRadius = 20;
     self.boldPrimaryComponentText = YES;
     
